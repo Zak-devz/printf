@@ -11,6 +11,7 @@
 int _print_a_char(va_list args)
 {
 	char c = (va_arg(args, int));
+
 	_write(c);
 	return (1);
 }
