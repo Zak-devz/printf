@@ -80,7 +80,7 @@ int _print_spec(char format, va_list args)
 
 /**
   * _print_invalid_spec - Prints an error message
-  * for an invalid format specifier
+  * for an invalid format specifier.
   * @prev_format: The previous format specifier that was processed
   * @format: The invalid specifier that caused the error
   * @count: The current count before prints invalid specifiers
